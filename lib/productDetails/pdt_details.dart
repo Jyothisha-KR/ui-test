@@ -28,7 +28,7 @@ class PdtDetails extends StatelessWidget {
               Container(
                 child: Image.network(pdtData.pdtImage!),
               ),
-              const SizedBox(height: 10.0),
+              const SizedBox(height: 10),
               
               const SizedBox(
                 height: 5,
@@ -57,10 +57,7 @@ class PdtDetails extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(width: 3),
-                  const Icon(
-                    Icons.currency_rupee,
-                    size: 12,
-                  ),
+                  
                   
                   const SizedBox(width: 3),
                   
@@ -70,13 +67,9 @@ class PdtDetails extends StatelessWidget {
                 height: 5,
               ),
               Row(
-                children: [
-                  const Icon(
-                    Icons.discount,
-                    size: 10,
-                    color: Colors.green,
-                  ),
-                  const SizedBox(
+                children:const [
+                 Text('polestar noble blue casual bag'),
+                   SizedBox(
                     width: 5,
                   ),
                   

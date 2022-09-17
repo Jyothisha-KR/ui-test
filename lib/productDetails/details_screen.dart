@@ -73,28 +73,24 @@ class _ItemDetailPageState extends State<ItemDetailPage> {
                     const SizedBox(
                       width: 15,
                     ),
-                    const Icon(
-                      Icons.currency_rupee,
-                      size: 12,
-                    ),
-                    
+                   
                   ],
                 ),
                 const SizedBox(
                   height: 10,
                 ),
                 const Text(
-                  'Fabric choices, openings and fastenings, fit and ease, trimmings used are all major considerations when designing children  wear. Some other factors a designer designing for children  clothing should focus on are the changing shape of the growing kid and different proportions of the different parts of the body.',
+                  'polestar noble blue 32 ltrs casual bagpack/school bag/laptop',
                   style: TextStyle(fontSize: 12),
                 ),
                 const SizedBox(
                   height: 10,
                 ),
                 CustomExpansionTile(
-                  title: 'Delivery Details',
-                  subtitle: 'Check Delivery Date',
+                  title: 'price',
+                  subtitle: '699',
                   explanation:
-                      'your purchased item will be there on aug 22nd before 9 PM',
+                      '',
                   customTileExpanded: false,
                 ),
                 const SizedBox(
@@ -105,7 +101,7 @@ class _ItemDetailPageState extends State<ItemDetailPage> {
                   height: 10,
                 ),
                 CustomExpansionTile(
-                  title: 'Product Details',
+                  title: 'Description',
                   subtitle: 'more',
                   explanation:
                       '',
